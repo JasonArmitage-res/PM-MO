@@ -21,9 +21,9 @@ from pyro import poutine
 from pyro.infer import SVI, Trace_ELBO, TraceEnum_ELBO
 from pyro.optim import ClippedAdam
 
-from models import GMU
-from models import Maxout_MLP
-from pyro_models import GMU_Pyro
+from models.models import GMU
+from models.models import Maxout_MLP
+from models.pyro_models import GMU_Pyro
 
 
 #Train-Validation-Test
