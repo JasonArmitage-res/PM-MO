@@ -1,0 +1,15 @@
+﻿{
+	"epochs": 25,
+	"hidden_layer_size": 3000,
+	"batch_size": 512,
+	"learning_rate": 0.005,
+	"dropout": 0.9,
+	"sigmoid_thresh": 0.3,
+	"weight_decay": 0.01,
+	"num_maxout_units": 5,
+	"max_norm": 20,
+	"reg_param": 0.1,
+	"annealing_factor": 2.4,
+	"scheduler_step_size": 99999,
+	"scheduler_lr_fraction": 0.85
+}
